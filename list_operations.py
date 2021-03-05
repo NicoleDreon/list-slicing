@@ -5,11 +5,11 @@ def head(input_list):
     """Return the first item of the input list.
 
     For example:
-
+    
       >>> head(['Jan', 'Feb', 'Mar'])
       'Jan'
     """
-
+    # index starts at 0 from left to right
     return input_list[0]
 
 
@@ -22,7 +22,7 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
-
+    
     return input_list[1:]
 
 
@@ -35,8 +35,8 @@ def last(input_list):
     'Mar'
 
     """
-
-    return []
+    # index from right to left starts at -1
+    return input_list[-1]
 
 
 def top(input_list):
