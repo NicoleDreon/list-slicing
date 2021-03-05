@@ -48,7 +48,7 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
-
+    # start at index 0 and finish at -1 without inclucing -1
     return input_list[:-1]
 
 
@@ -62,7 +62,7 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[0:3]
 
 
 def last_five(input_list):
